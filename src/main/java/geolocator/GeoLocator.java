@@ -60,6 +60,7 @@ public class GeoLocator {
         return OBJECT_MAPPER.readValue(s, GeoLocation.class);
     }
 
+    // CHECKSTYLE:OFF
     public static void main(String[] args) throws IOException {
         try {
             String arg = args.length > 0 ? args[0] : null;
